@@ -21,7 +21,7 @@ export class MarketplaceComponent {
    new Album("Axis Bold As Love", "The Jimi Hendrix Experience",
        "Second studio album by the English-American band, released in 1967.", 6)
   ];
-  
+
   constructor(private router: Router){}
 
   gotToDetailPage(clickedAlbum: Album){
